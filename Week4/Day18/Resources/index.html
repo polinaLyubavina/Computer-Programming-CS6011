@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body style="background-color: linen;">
+
+        <h2>Welcome to the World Chat Box!</h2>
+
+        <li>
+            <button id="join" type="button" style="margin: 25px;">Join Main Room</button>
+        </li>
+
+        <li>
+            <label style="margin: 20px;">Place Username Here :)</label>
+        </li>
+        <li>
+            <textarea
+                id="username"
+                style="margin-top: 20px; margin-left: 5px; margin-bottom: 20px; 
+                       background-color: aliceblue;"
+                placeholder="Enter Your Username Here">  
+            </textarea>
+        </li>
+
+        <li>
+            <label style="margin: 20px; margin-top: 20px;">Place Message Here :)</label>
+        </li>
+        <li>
+            <textarea
+                id="messageArea"
+                style="margin-top: 20px; margin-left: 5px; 
+                       background-color: aliceblue;"
+                placeholder="Enter Your Text Here">  
+            </textarea>
+        </li>
+
+        <li>
+            <button id="send" type="button" style="margin: 25px;">Send Message</button>
+        </li>
+
+        <li>
+            <label style="margin: 20px; margin-top: 20px;">New Message Displays Here :)</label>
+        </li>
+        <li>
+            <div
+                id="receiverArea"             
+                style="margin-top: 20px; margin-left: 5px; 
+                background-color: aliceblue;"">
+            </div >
+                
+
+            </textarea>
+        </li>
+
+        <script src="ws.js"></script>
+    </body>
+</html>
