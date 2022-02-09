@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            textarea { resize: none; white-space: nowrap; overflow-x: hidden;}
+        </style>
+    </head>
+    <body style="background-color: linen;">
+
+        <h2>Calculator</h2>
+
+        <ul>
+            <li>
+                <label>X Value</label>
+                <textarea id="xTA"></textarea>
+            </li>
+            <li>
+                <label>Y Value</label>
+                <textarea id="yTA"></textarea>
+            </li>
+            <button type="button">Add Numbers</button>
+            <li>
+                <label>Result</label>
+                <textarea id="resultTA"></textarea>
+            </li>
+            <li>
+                <label>WebSocket Result</label>
+                <textarea id="wsTA"></textarea>
+            </li>
+        </ul>
+
+        <script src="Calculator.js"></script>
+    </body>
+</html>
